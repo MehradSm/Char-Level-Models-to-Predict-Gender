@@ -1,0 +1,249 @@
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcurand.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcufft.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcudnn.so.5 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcublas.so.8.0 locally
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 0 with properties: 
+name: Tesla P100-PCIE-12GB
+major: 6 minor: 0 memoryClockRate (GHz) 1.3285
+pciBusID 0000:02:00.0
+Total memory: 11.94GiB
+Free memory: 11.65GiB
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:906] DMA: 0 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 0:   Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla P100-PCIE-12GB, pci bus id: 0000:02:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla P100-PCIE-12GB, pci bus id: 0000:02:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla P100-PCIE-12GB, pci bus id: 0000:02:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla P100-PCIE-12GB, pci bus id: 0000:02:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla P100-PCIE-12GB, pci bus id: 0000:02:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla P100-PCIE-12GB, pci bus id: 0000:02:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla P100-PCIE-12GB, pci bus id: 0000:02:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla P100-PCIE-12GB, pci bus id: 0000:02:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla P100-PCIE-12GB, pci bus id: 0000:02:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla P100-PCIE-12GB, pci bus id: 0000:02:00.0)
+epoch 0,  batch 0,  loss: 3.554,   accuracy: 0.501
+epoch 0,  batch 1024,  loss: 0.641,   accuracy: 0.649
+epoch 0,  batch 2048,  loss: 0.608,   accuracy: 0.688
+epoch 0,  batch 3072,  loss: 0.587,   accuracy: 0.702
+epoch 1,  batch 0,  loss: 0.575,   accuracy: 0.709
+epoch 1,  batch 1024,  loss: 0.566,   accuracy: 0.716
+epoch 1,  batch 2048,  loss: 0.550,   accuracy: 0.725
+epoch 1,  batch 3072,  loss: 0.539,   accuracy: 0.732
+epoch 2,  batch 0,  loss: 0.536,   accuracy: 0.732
+epoch 2,  batch 1024,  loss: 0.528,   accuracy: 0.736
+epoch 2,  batch 2048,  loss: 0.525,   accuracy: 0.739
+epoch 2,  batch 3072,  loss: 0.511,   accuracy: 0.747
+epoch 3,  batch 0,  loss: 0.513,   accuracy: 0.748
+epoch 3,  batch 1024,  loss: 0.494,   accuracy: 0.755
+epoch 3,  batch 2048,  loss: 0.516,   accuracy: 0.737
+epoch 3,  batch 3072,  loss: 0.478,   accuracy: 0.766
+Model saved in file: checkpoint/cnn0.ckpt
+Alpha: 1.23240 
+Importance Error: 0.22576 
+Training Error of this run: 0.22576
+Training Error of boosted Classifier: 0.225761
+Test Error of boosted Classifier: 0.234794
+epoch 0,  batch 0,  loss: 4.840,   accuracy: 0.501
+epoch 0,  batch 1024,  loss: 0.694,   accuracy: 0.501
+epoch 0,  batch 2048,  loss: 0.695,   accuracy: 0.501
+epoch 0,  batch 3072,  loss: 0.697,   accuracy: 0.501
+epoch 1,  batch 0,  loss: 0.696,   accuracy: 0.501
+epoch 1,  batch 1024,  loss: 0.695,   accuracy: 0.501
+epoch 1,  batch 2048,  loss: 0.695,   accuracy: 0.501
+epoch 1,  batch 3072,  loss: 0.694,   accuracy: 0.501
+epoch 2,  batch 0,  loss: 0.696,   accuracy: 0.501
+epoch 2,  batch 1024,  loss: 0.696,   accuracy: 0.501
+epoch 2,  batch 2048,  loss: 0.695,   accuracy: 0.501
+epoch 2,  batch 3072,  loss: 0.695,   accuracy: 0.501
+epoch 3,  batch 0,  loss: 0.696,   accuracy: 0.501
+epoch 3,  batch 1024,  loss: 0.695,   accuracy: 0.501
+epoch 3,  batch 2048,  loss: 0.696,   accuracy: 0.501
+epoch 3,  batch 3072,  loss: 0.695,   accuracy: 0.501
+Model saved in file: checkpoint/cnn1.ckpt
+Alpha: 0.13065 
+Importance Error: 0.46738 
+Training Error of this run: 0.49993
+Training Error of boosted Classifier: 0.225761
+Test Error of boosted Classifier: 0.234794
+epoch 0,  batch 0,  loss: 3.696,   accuracy: 0.501
+epoch 0,  batch 1024,  loss: 0.693,   accuracy: 0.499
+epoch 0,  batch 2048,  loss: 0.693,   accuracy: 0.501
+epoch 0,  batch 3072,  loss: 0.693,   accuracy: 0.501
+epoch 1,  batch 0,  loss: 0.693,   accuracy: 0.501
+epoch 1,  batch 1024,  loss: 0.693,   accuracy: 0.499
+epoch 1,  batch 2048,  loss: 0.692,   accuracy: 0.529
+epoch 1,  batch 3072,  loss: 0.687,   accuracy: 0.557
+epoch 2,  batch 0,  loss: 0.687,   accuracy: 0.559
+epoch 2,  batch 1024,  loss: 0.679,   accuracy: 0.587
+epoch 2,  batch 2048,  loss: 0.668,   accuracy: 0.608
+epoch 2,  batch 3072,  loss: 0.660,   accuracy: 0.612
+epoch 3,  batch 0,  loss: 0.647,   accuracy: 0.653
+epoch 3,  batch 1024,  loss: 0.632,   accuracy: 0.664
+epoch 3,  batch 2048,  loss: 0.633,   accuracy: 0.641
+epoch 3,  batch 3072,  loss: 0.629,   accuracy: 0.652
+Model saved in file: checkpoint/cnn2.ckpt
+Alpha: 0.34468 
+Importance Error: 0.41467 
+Training Error of this run: 0.34944
+Training Error of boosted Classifier: 0.225761
+Test Error of boosted Classifier: 0.234794
+epoch 0,  batch 0,  loss: 2.072,   accuracy: 0.499
+epoch 0,  batch 1024,  loss: 0.696,   accuracy: 0.499
+epoch 0,  batch 2048,  loss: 0.697,   accuracy: 0.499
+epoch 0,  batch 3072,  loss: 0.695,   accuracy: 0.499
+epoch 1,  batch 0,  loss: 0.697,   accuracy: 0.499
+epoch 1,  batch 1024,  loss: 0.698,   accuracy: 0.499
+epoch 1,  batch 2048,  loss: 0.698,   accuracy: 0.499
+epoch 1,  batch 3072,  loss: 0.697,   accuracy: 0.499
+epoch 2,  batch 0,  loss: 0.698,   accuracy: 0.499
+epoch 2,  batch 1024,  loss: 0.698,   accuracy: 0.499
+epoch 2,  batch 2048,  loss: 0.697,   accuracy: 0.499
+epoch 2,  batch 3072,  loss: 0.697,   accuracy: 0.499
+epoch 3,  batch 0,  loss: 0.699,   accuracy: 0.499
+epoch 3,  batch 1024,  loss: 0.698,   accuracy: 0.499
+epoch 3,  batch 2048,  loss: 0.697,   accuracy: 0.499
+epoch 3,  batch 3072,  loss: 0.698,   accuracy: 0.499
+Model saved in file: checkpoint/cnn3.ckpt
+Alpha: 0.18452 
+Importance Error: 0.45400 
+Training Error of this run: 0.50007
+Training Error of boosted Classifier: 0.225761
+Test Error of boosted Classifier: 0.234794
+epoch 0,  batch 0,  loss: 2.741,   accuracy: 0.501
+epoch 0,  batch 1024,  loss: 0.693,   accuracy: 0.499
+epoch 0,  batch 2048,  loss: 0.693,   accuracy: 0.499
+epoch 0,  batch 3072,  loss: 0.693,   accuracy: 0.499
+epoch 1,  batch 0,  loss: 0.693,   accuracy: 0.500
+epoch 1,  batch 1024,  loss: 0.693,   accuracy: 0.499
+epoch 1,  batch 2048,  loss: 0.693,   accuracy: 0.501
+epoch 1,  batch 3072,  loss: 0.693,   accuracy: 0.501
+epoch 2,  batch 0,  loss: 0.693,   accuracy: 0.500
+epoch 2,  batch 1024,  loss: 0.693,   accuracy: 0.499
+epoch 2,  batch 2048,  loss: 0.693,   accuracy: 0.501
+epoch 2,  batch 3072,  loss: 0.693,   accuracy: 0.499
+epoch 3,  batch 0,  loss: 0.693,   accuracy: 0.499
+epoch 3,  batch 1024,  loss: 0.693,   accuracy: 0.501
+epoch 3,  batch 2048,  loss: 0.693,   accuracy: 0.501
+epoch 3,  batch 3072,  loss: 0.693,   accuracy: 0.499
+Model saved in file: checkpoint/cnn4.ckpt
+Alpha: 0.00000 
+Importance Error: 0.50000 
+Training Error of this run: 0.49993
+Training Error of boosted Classifier: 0.225761
+Test Error of boosted Classifier: 0.234794
+epoch 0,  batch 0,  loss: 3.964,   accuracy: 0.501
+epoch 0,  batch 1024,  loss: 0.693,   accuracy: 0.499
+epoch 0,  batch 2048,  loss: 0.693,   accuracy: 0.499
+epoch 0,  batch 3072,  loss: 0.693,   accuracy: 0.506
+epoch 1,  batch 0,  loss: 0.693,   accuracy: 0.501
+epoch 1,  batch 1024,  loss: 0.693,   accuracy: 0.499
+epoch 1,  batch 2048,  loss: 0.693,   accuracy: 0.499
+epoch 1,  batch 3072,  loss: 0.693,   accuracy: 0.501
+epoch 2,  batch 0,  loss: 0.693,   accuracy: 0.501
+epoch 2,  batch 1024,  loss: 0.693,   accuracy: 0.499
+epoch 2,  batch 2048,  loss: 0.693,   accuracy: 0.499
+epoch 2,  batch 3072,  loss: 0.693,   accuracy: 0.501
+epoch 3,  batch 0,  loss: 0.693,   accuracy: 0.499
+epoch 3,  batch 1024,  loss: 0.693,   accuracy: 0.499
+epoch 3,  batch 2048,  loss: 0.693,   accuracy: 0.501
+epoch 3,  batch 3072,  loss: 0.693,   accuracy: 0.501
+Model saved in file: checkpoint/cnn5.ckpt
+Alpha: 0.00000 
+Importance Error: 0.50000 
+Training Error of this run: 0.50007
+Training Error of boosted Classifier: 0.225761
+Test Error of boosted Classifier: 0.234794
+epoch 0,  batch 0,  loss: 0.783,   accuracy: 0.501
+epoch 0,  batch 1024,  loss: 0.693,   accuracy: 0.499
+epoch 0,  batch 2048,  loss: 0.693,   accuracy: 0.501
+epoch 0,  batch 3072,  loss: 0.693,   accuracy: 0.504
+epoch 1,  batch 0,  loss: 0.693,   accuracy: 0.499
+epoch 1,  batch 1024,  loss: 0.693,   accuracy: 0.499
+epoch 1,  batch 2048,  loss: 0.693,   accuracy: 0.501
+epoch 1,  batch 3072,  loss: 0.693,   accuracy: 0.501
+epoch 2,  batch 0,  loss: 0.693,   accuracy: 0.501
+epoch 2,  batch 1024,  loss: 0.693,   accuracy: 0.499
+epoch 2,  batch 2048,  loss: 0.693,   accuracy: 0.501
+epoch 2,  batch 3072,  loss: 0.693,   accuracy: 0.501
+epoch 3,  batch 0,  loss: 0.693,   accuracy: 0.501
+epoch 3,  batch 1024,  loss: 0.693,   accuracy: 0.499
+epoch 3,  batch 2048,  loss: 0.693,   accuracy: 0.501
+epoch 3,  batch 3072,  loss: 0.693,   accuracy: 0.499
+Model saved in file: checkpoint/cnn6.ckpt
+Alpha: 0.00000 
+Importance Error: 0.50000 
+Training Error of this run: 0.50007
+Training Error of boosted Classifier: 0.225761
+Test Error of boosted Classifier: 0.234794
+epoch 0,  batch 0,  loss: 3.437,   accuracy: 0.499
+epoch 0,  batch 1024,  loss: 0.693,   accuracy: 0.500
+epoch 0,  batch 2048,  loss: 0.693,   accuracy: 0.499
+epoch 0,  batch 3072,  loss: 0.693,   accuracy: 0.499
+epoch 1,  batch 0,  loss: 0.693,   accuracy: 0.499
+epoch 1,  batch 1024,  loss: 0.693,   accuracy: 0.501
+epoch 1,  batch 2048,  loss: 0.693,   accuracy: 0.499
+epoch 1,  batch 3072,  loss: 0.693,   accuracy: 0.499
+epoch 2,  batch 0,  loss: 0.693,   accuracy: 0.499
+epoch 2,  batch 1024,  loss: 0.693,   accuracy: 0.499
+epoch 2,  batch 2048,  loss: 0.693,   accuracy: 0.501
+epoch 2,  batch 3072,  loss: 0.693,   accuracy: 0.499
+epoch 3,  batch 0,  loss: 0.693,   accuracy: 0.499
+epoch 3,  batch 1024,  loss: 0.693,   accuracy: 0.501
+epoch 3,  batch 2048,  loss: 0.693,   accuracy: 0.499
+epoch 3,  batch 3072,  loss: 0.693,   accuracy: 0.501
+Model saved in file: checkpoint/cnn7.ckpt
+Alpha: 0.00000 
+Importance Error: 0.50000 
+Training Error of this run: 0.50007
+Training Error of boosted Classifier: 0.225761
+Test Error of boosted Classifier: 0.234794
+epoch 0,  batch 0,  loss: 4.397,   accuracy: 0.501
+epoch 0,  batch 1024,  loss: 0.693,   accuracy: 0.499
+epoch 0,  batch 2048,  loss: 0.693,   accuracy: 0.499
+epoch 0,  batch 3072,  loss: 0.693,   accuracy: 0.501
+epoch 1,  batch 0,  loss: 0.693,   accuracy: 0.499
+epoch 1,  batch 1024,  loss: 0.693,   accuracy: 0.499
+epoch 1,  batch 2048,  loss: 0.693,   accuracy: 0.499
+epoch 1,  batch 3072,  loss: 0.693,   accuracy: 0.501
+epoch 2,  batch 0,  loss: 0.693,   accuracy: 0.499
+epoch 2,  batch 1024,  loss: 0.693,   accuracy: 0.501
+epoch 2,  batch 2048,  loss: 0.693,   accuracy: 0.501
+epoch 2,  batch 3072,  loss: 0.693,   accuracy: 0.499
+epoch 3,  batch 0,  loss: 0.693,   accuracy: 0.499
+epoch 3,  batch 1024,  loss: 0.693,   accuracy: 0.501
+epoch 3,  batch 2048,  loss: 0.693,   accuracy: 0.499
+epoch 3,  batch 3072,  loss: 0.693,   accuracy: 0.501
+Model saved in file: checkpoint/cnn8.ckpt
+Alpha: 0.00000 
+Importance Error: 0.50000 
+Training Error of this run: 0.49993
+Training Error of boosted Classifier: 0.225761
+Test Error of boosted Classifier: 0.234794
+epoch 0,  batch 0,  loss: 2.888,   accuracy: 0.501
+epoch 0,  batch 1024,  loss: 0.693,   accuracy: 0.499
+epoch 0,  batch 2048,  loss: 0.693,   accuracy: 0.501
+epoch 0,  batch 3072,  loss: 0.693,   accuracy: 0.501
+epoch 1,  batch 0,  loss: 0.693,   accuracy: 0.499
+epoch 1,  batch 1024,  loss: 0.693,   accuracy: 0.499
+epoch 1,  batch 2048,  loss: 0.693,   accuracy: 0.501
+epoch 1,  batch 3072,  loss: 0.693,   accuracy: 0.499
+epoch 2,  batch 0,  loss: 0.693,   accuracy: 0.499
+epoch 2,  batch 1024,  loss: 0.693,   accuracy: 0.501
+epoch 2,  batch 2048,  loss: 0.693,   accuracy: 0.501
+epoch 2,  batch 3072,  loss: 0.693,   accuracy: 0.499
+epoch 3,  batch 0,  loss: 0.693,   accuracy: 0.501
+epoch 3,  batch 1024,  loss: 0.693,   accuracy: 0.499
+epoch 3,  batch 2048,  loss: 0.693,   accuracy: 0.499
+epoch 3,  batch 3072,  loss: 0.693,   accuracy: 0.499
+Model saved in file: checkpoint/cnn9.ckpt
+Alpha: 0.00000 
+Importance Error: 0.50000 
+Training Error of this run: 0.49993
+Training Error of boosted Classifier: 0.225761
+Test Error of boosted Classifier: 0.234794
