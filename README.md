@@ -17,7 +17,7 @@ The code is divided to five categories:
 
 More details of the project can be found on [Description.pdf](https://github.com/MehradSm/Char-Level-Models-to-Predict-Gender/blob/master/Description.pdf) pdf file.
 
-This project have done by Andre Cutler, Ali Siahkamari and Me, supervised by Prof. Brian Kulis.
+This project have done by Andrew Cutler, Ali Siahkamari and Me, supervised by Prof. Brian Kulis.
 
 
 
