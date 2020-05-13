@@ -4,19 +4,20 @@ In this project, we implemented a character-based CNN as well as an LSTM languag
 
 ### Data 
 
-The dataset includes 30 million status updates from 3.5 million users which is collected from the mypersonality app, a third-party facebook quiz. 
+The dataset includes two part. The first one is MNIST dataset and the second one includes 30 million status updates from 3.5 million users which is collected from the mypersonality app, a third-party facebook quiz. 
 
 ### Code
-The code is divided to four categories:
+The code is divided to five categories:
 
-1. The [Preprocessing.ipynb](https://github.com/MehradSm/House-Price-Estimation-Using-Machine-Learning-Methods/blob/master/Preprocessing.ipynb) Jupyter Notebook contains the code to preprocess the raw data. 
-2. The [Regression.ipynb](https://github.com/MehradSm/House-Price-Estimation-Using-Machine-Learning-Methods/blob/master/Regression.ipynb) Jupyter Notebook contains the linear regression methods
-3. The [Random_Forest.ipynb](https://github.com/MehradSm/House-Price-Estimation-Using-Machine-Learning-Methods/blob/master/Random_Forest.ipynb) Jupyter Notebook contains the random forest regression model. 
-4. The [Gradient Boosting](https://github.com/MehradSm/House-Price-Estimation-Using-Machine-Learning-Methods/tree/master/Gradient%20Boosting) file contains MATLAB files to implement gradient boosting method. 
+1. The [Preprocessing](https://github.com/MehradSm/Char-Level-Models-to-Predict-Gender/tree/master/Preprocessing) file contains the code to preprocess the raw data. 
+2. The [Naive_Bayes](https://github.com/MehradSm/Char-Level-Models-to-Predict-Gender/tree/master/Naive_Bayes) and [SVM](https://github.com/MehradSm/Char-Level-Models-to-Predict-Gender/tree/master/SVM) files contain the naive bayes and SVM as baseline methods for the prediction.  
+3. The [CNN](https://github.com/MehradSm/Char-Level-Models-to-Predict-Gender/tree/master/CNN) file contains the character level CNN model. 
+4. The [LSTM](https://github.com/MehradSm/Char-Level-Models-to-Predict-Gender/tree/master/LSTM) and [GRU](https://github.com/MehradSm/Char-Level-Models-to-Predict-Gender/tree/master/GRU) Files contein character level RNN models. 
+5. The [CNN_Boosting](https://github.com/MehradSm/Char-Level-Models-to-Predict-Gender/tree/master/CNN_Boosting) file contains Ada Boosted CNN method for the gender prediction. 
 
-More details of the project can be found on [Description.pdf](https://github.com/MehradSm/House-Price-Estimation-Using-Machine-Learning-Methods/blob/master/Description.pdf) pdf file.
+More details of the project can be found on [Description.pdf](https://github.com/MehradSm/Char-Level-Models-to-Predict-Gender/blob/master/Description.pdf) pdf file.
 
-This project have done by Gabrielle Belok, Artin Spiridonoff and Me, Supervised by Professor Prakash Ishwar.
+This project have done by Andre Cutler, Ali Siahkamari and Me, supervised by Prof. Brian Kulis.
 
 
 
