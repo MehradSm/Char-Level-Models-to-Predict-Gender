@@ -15,7 +15,7 @@ The code is divided to five categories:
 4. The [LSTM](https://github.com/MehradSm/Char-Level-Models-to-Predict-Gender/tree/master/LSTM) and [GRU](https://github.com/MehradSm/Char-Level-Models-to-Predict-Gender/tree/master/GRU) Files contein character level RNN models. 
 5. The [CNN_Boosting](https://github.com/MehradSm/Char-Level-Models-to-Predict-Gender/tree/master/CNN_Boosting) file contains Ada Boosted CNN method for the gender prediction. 
 
-More details of the project can be found on [Description.pdf](https://github.com/MehradSm/Char-Level-Models-to-Predict-Gender/blob/master/Description.pdf) pdf file.
+More details of the project can be found on [Description](https://github.com/MehradSm/Char-Level-Models-to-Predict-Gender/blob/master/Description.pdf) pdf file.
 
 This project have done by Andrew Cutler, Ali Siahkamari and Me, supervised by Prof. Brian Kulis.
 
